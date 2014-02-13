@@ -1,4 +1,4 @@
-package CHAP03;
+package Chap03;
 
 public class Robot {
 
@@ -40,11 +40,11 @@ public class Robot {
 	
 	//Shallow Copy
 	public Robot makeClone1() {
-		return new Robot(position, name+" Å¬·Ð");
+		return new Robot(position, name+" Å¬ï¿½ï¿½");
 	}
 	
 	//Deep Copy
 	public Robot makeClone2() {
-		return new Robot(new Position(position.getX(), position.getY()), name+" Å¬·Ð");
+		return new Robot(new Position(position.getX(), position.getY()), name+" Å¬ï¿½ï¿½");
 	}
 }

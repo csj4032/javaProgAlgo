@@ -1,26 +1,26 @@
-package CHAP03;
+package Chap03;
 
 public class Testing {
 	
 	public static void main(String[] args) {
 		
-		Robot robita = new Robot(new Position(10, 20), "·ÎºñÅ¸");
+		Robot robita = new Robot(new Position(10, 20), "ï¿½Îºï¿½Å¸");
 		//Robot robitaMKII = robita;
 		Robot robitaMKII = robita.makeClone1();
 		//Robot robitaMKII = robita.makeClone2();
 		
-		System.out.println("ÀÌµ¿ ÀüÀÇ ·ÎºñÅ¸ = " + robita);
+		System.out.println("ï¿½Ìµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Îºï¿½Å¸ = " + robita);
 		robita.moveX(10);
-		System.out.println("ÀÌµ¿ ÈÄÀÇ ·ÎºñÅ¸ = " + robita);
+		System.out.println("ï¿½Ìµï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Îºï¿½Å¸ = " + robita);
 		System.out.println("robitaMKII = " + robitaMKII);
 		
 		Position a = new Position(10, 20);
 		Position b = new Position(10, 20);
 		
 		if(a.equals(b)) {
-			System.out.println(a + "¿Í" + b + "Àº °°´Ù.");
+			System.out.println(a + "ï¿½ï¿½" + b + "ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½.");
 		} else {
-			System.out.println(a + "¿Í" + b + "Àº °°Áö ¾Ê´Ù.");
+			System.out.println(a + "ï¿½ï¿½" + b + "ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½Ê´ï¿½.");
 		}
 	}
 }

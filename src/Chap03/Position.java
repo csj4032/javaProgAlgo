@@ -1,4 +1,4 @@
-package CHAP03;
+package Chap03;
 
 public class Position {
 
