@@ -21,6 +21,10 @@ public class MyLinkedList {
 		q.next = newCell;
 	}
 
+	public MyLinkedListIterator iterator () {
+		return new MyLinkedListIterator(this);
+	}
+
 	public String toString() {
 		String s;
 		s = "[ ";
