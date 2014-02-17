@@ -18,4 +18,13 @@ package Chap09;
 
 public class Node {
 
+	Comparable data;
+	Node left;
+	Node right;
+
+	public Node(Comparable aLabel) {
+		left = null;
+		right = null;
+		data = aLabel;
+	}
 }
