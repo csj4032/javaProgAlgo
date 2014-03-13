@@ -1,5 +1,6 @@
 package Chap02;
 
+//수정
 public class BinarySearch {
 
 	class Entry {
