@@ -38,8 +38,8 @@
       <file leaf-file-name="workspace.xml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35714287" vertical-offset="0" max-vertical-offset="7650">
-              <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+            <state vertical-scroll-proportion="0.43367347" vertical-offset="0" max-vertical-offset="7515">
+              <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -59,6 +59,7 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/javaProgAlgo.iml" />
+        <option value="$PROJECT_DIR$/.idea/workspace.xml" />
       </list>
     </option>
   </component>
@@ -358,7 +359,7 @@
       <created>1411653027696</created>
       <updated>1411653027696</updated>
       <workItem from="1411653032189" duration="155000" />
-      <workItem from="1411653188865" duration="207000" />
+      <workItem from="1411653188865" duration="240000" />
     </task>
     <task id="LOCAL-00001" summary="JDK세팅">
       <created>1411653322262</created>
@@ -368,11 +369,15 @@
       <created>1411653365611</created>
       <updated>1411653365611</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="IntellJ세팅">
+      <created>1411653398686</created>
+      <updated>1411653398686</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="362000" />
+    <option name="totallyTimeSpent" value="395000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
@@ -479,8 +484,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.idea/workspace.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35714287" vertical-offset="0" max-vertical-offset="7650">
-          <caret line="14" column="84" selection-start-line="14" selection-start-column="84" selection-end-line="14" selection-end-column="84" />
+        <state vertical-scroll-proportion="0.43367347" vertical-offset="0" max-vertical-offset="7440">
+          <caret line="17" column="14" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
           <folding />
         </state>
       </provider>
