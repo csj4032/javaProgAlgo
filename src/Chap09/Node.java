@@ -28,3 +28,40 @@ public class Node {
 		data = aLabel;
 	}
 }
+
+class BinarySearchTree {
+
+	private Node root;
+
+	public BinarySearchTree() {
+		root = null;
+	}
+
+	public Node search(Comparable key) {
+		Node p = root;
+		while (p != null) {
+			int result = key.compareTo(p.data);
+			if(result == 0) {
+				return p;
+			} else if (result < 0) {
+				p = p.left;
+			} else {
+				p = p.right;
+			}
+		}
+		return null;
+	}
+
+	public Node insert(Comparable key) {
+		Node p = root;
+		Node parent = null;
+		boolean isLeftChild = false;
+
+		while (p != null) {
+
+		}
+
+		Node newNode = new Node(key);
+		return newNode;
+	}
+}
