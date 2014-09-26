@@ -1,17 +1,17 @@
 /**
  *	Copyrihgt DaumService., Copyright(c) 2014 All rights reserved.
- *	
- *	@Project		:		javaProgAlgo
- *	@Package		:		Chap09
- *	@File			:		Node.java
- *	@Date			:		2014. 2. 17.
- *	@Author		:		daum
- *	@Version		:		1.0
- *	@Description	:		
  *
- *	@ModifyDate	:		
- *	@Amender		:		
- *	@Description	:		
+ *    @Project        :		javaProgAlgo
+ *	@Package        :		Chap09
+ *	@File            :		Node.java
+ *	@Date            :		2014. 2. 17.
+ *	@Author        :		daum
+ *	@Version        :		1.0
+ *	@Description    :
+ *
+ *	@ModifyDate    :
+ *	@Amender        :
+ *	@Description    :
  **/
 
 package Chap09;
@@ -41,7 +41,7 @@ class BinarySearchTree {
 		Node p = root;
 		while (p != null) {
 			int result = key.compareTo(p.data);
-			if(result == 0) {
+			if (result == 0) {
 				return p;
 			} else if (result < 0) {
 				p = p.left;
@@ -58,10 +58,26 @@ class BinarySearchTree {
 		boolean isLeftChild = false;
 
 		while (p != null) {
-
+			int result = key.compareTo(p.data);
+			if (result == 0) {
+				return p;
+			} else if (result < 0) {
+				parent = p;
+				isLeftChild = true;
+			} else {
+				parent = p;
+				isLeftChild = false;
+			}
 		}
 
 		Node newNode = new Node(key);
-		return newNode;
+		if (parent == null) {
+			root = newNode;
+		} else if (isLeftChild) {
+			parent.left = newNode;
+		} else {
+			parent.right = newNode;
+		}
+			return newNode;
 	}
 }
