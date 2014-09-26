@@ -33,6 +33,15 @@ public class BTree {
 			child = new Node[MAX_CHILD];
 			low = new Comparable[MAX_CHILD];
 		}
+
+		private int locateSubtree(Comparable key) {
+			for(int i = nChilds - 1; i > 0; i--) {
+				if(key.compareTo(low[i]) >= 0) {
+					return i;
+				}
+			}
+			return 0;
+		}
 	}
 
 	private class Leaf extends Node {
