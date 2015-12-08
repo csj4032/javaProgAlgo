@@ -40,11 +40,11 @@ public class Robot {
 	
 	//Shallow Copy
 	public Robot makeClone1() {
-		return new Robot(position, name+" Ŭ��");
+		return new Robot(position, name+" 입니다.");
 	}
 	
 	//Deep Copy
 	public Robot makeClone2() {
-		return new Robot(new Position(position.getX(), position.getY()), name+" Ŭ��");
+		return new Robot(new Position(position.getX(), position.getY()), name+" 입니다.");
 	}
 }
