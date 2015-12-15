@@ -1,17 +1,17 @@
 /**
  *	Copyrihgt DaumService., Copyright(c) 2014 All rights reserved.
  *
- *	@Project		:		javaProgAlgo
- *	@Package		:		Chap10
- *	@File			:		BTree.java
- *	@Date			:		2014. 2. 20.
- *	@Author			:		daum
- *	@Version		:		1.0
- *	@Description	:
+ *    @Project        :		javaProgAlgo
+ *	@Package        :		Chap10
+ *	@File            :		BTree.java
+ *	@Date            :		2014. 2. 20.
+ *	@Author            :		daum
+ *	@Version        :		1.0
+ *	@Description    :
  *
- *	@ModifyDate		:
- *	@Amender		:
- *	@Description	:
+ *	@ModifyDate        :
+ *	@Amender        :
+ *	@Description    :
  **/
 
 package Chap10;
@@ -86,6 +86,23 @@ public class BTree {
 			} else {
 				return false;
 			}
+		}
+	}
+
+	public Object getData() {
+		if (currentLeaf == null) {
+			return null;
+		} else {
+			return currentLeaf;
+		}
+	}
+
+	public boolean setData(Object data) {
+		if (currentLeaf == null) {
+			return false;
+		} else {
+			currentLeaf.data = data;
+			return true;
 		}
 	}
 }
