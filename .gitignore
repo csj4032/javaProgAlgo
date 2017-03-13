@@ -1,5 +1,2 @@
-/bin
-/.settings
 *.iml
 .idea
-.log/
