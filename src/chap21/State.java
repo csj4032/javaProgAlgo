@@ -3,9 +3,6 @@ package chap21;
 import java.util.HashSet;
 import java.util.Set;
 
-/**
- * Created by Administrator on 2014-09-26.
- */
 public class State {
 
 	private static final int THRESHOLD_TO_USE_SPARSE = 3;

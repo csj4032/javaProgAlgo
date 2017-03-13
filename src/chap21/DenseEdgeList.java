@@ -1,8 +1,5 @@
 package chap21;
 
-/**
- * Created by Administrator on 2014-09-26.
- */
 public class DenseEdgeList implements EdgeList {
 
 	private State[] array;

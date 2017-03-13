@@ -1,19 +1,3 @@
-/**
- *	Copyrihgt Genius., Copyright(c) 2014 All rights reserved.
- *	
- *	@Project		:		javaProgAlgo
- *	@Package		:		Chap05
- *	@File			:		MyDoublyLinkedList.java
- *	@Date			:		2014. 2. 15.
- *	@Author			:		Administrator
- *	@Version		:		1.0
- *	@Description	:		
- *
- *	@ModifyDate		:		
- *	@Amender		:		
- *	@Description	:		
- **/
-
 package chap05;
 
 public class MyDoublyLinkedList {
@@ -25,7 +9,6 @@ public class MyDoublyLinkedList {
 		head.prev = head.next = head;
 	}
 
-	@SuppressWarnings("unused")
 	private void insertAfter(CellDouble p, Object data) {
 		CellDouble x = new CellDouble(data);
 		x.prev = p;
@@ -65,11 +48,10 @@ public class MyDoublyLinkedList {
 		return cell.data;
 	}
 
-	public Boolean isEmpty() {
+	public boolean isEmpty() {
 		return head.next == head;
 	}
 
-	@Override
 	public String toString() {
 		String s;
 		s = "[ ";
